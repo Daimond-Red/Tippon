@@ -1,0 +1,19 @@
+{
+  "name": "neuweg/notification",
+  "description": "Notification module",
+  "authors": [
+  {
+    "name": "Neuweg",
+    "email": "dev@neuweg.co.in"
+  }
+  ],
+  "minimum-stability": "dev",
+  "require": {},
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Neuweg\\Post\\NeuwegNotificationServiceProvider"
+      ]
+    }
+  }
+}

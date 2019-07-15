@@ -1,0 +1,19 @@
+{
+  "name": "neuweg/country",
+  "description": "Country module",
+  "authors": [
+  {
+    "name": "Neuweg",
+    "email": "dev@neuweg.co.in"
+  }
+  ],
+  "minimum-stability": "dev",
+  "require": {},
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Neuweg\\Country\\NeuwegCountryServiceProvider"
+      ]
+    }
+  }
+}

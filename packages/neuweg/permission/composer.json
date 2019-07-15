@@ -1,0 +1,26 @@
+{
+  "name": "neuweg/permission",
+  "description": "user permissions functionality",
+  "authors": [
+  {
+    "name": "Neuweg",
+    "email": "dev@neuweg.co.in"
+  }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "spatie/laravel-permission": "^2.9"
+  },
+  "autoload": {
+    "psr-4": {
+      "Neuweg\\Permission\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Neuweg\\Permission\\NeuwegPermissionServiceProvider"
+      ]
+    }
+  }
+}
